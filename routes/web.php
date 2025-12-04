@@ -22,7 +22,7 @@ Route::get('/cessie/{cessie:slug}', [\App\Http\Controllers\CessieController::cla
 
 
 Route::get('/jual', SaleCatalog::class)->name('sale-catalog');
-Route::get('/jual/{sale:slug}', [\App\Http\Controllers\JualController::class, 'show'])->name('sale');
+Route::get('/jual/{sale:slug}', [\App\Http\Controllers\JualController::class, 'show'])->name('jual');
 
 
 Route::get('/lelang', AuctionCatalog::class)->name('auction-catalog');
@@ -30,7 +30,7 @@ Route::get('/lelang/{auction:slug}', [\App\Http\Controllers\LelangController::cl
 
 
 Route::get('/proyek-baru', ProjectCatalog::class)->name('project-catalog');
-Route::get('/proyek-baru/{project:slug}', [\App\Http\Controllers\ProyekController::class, 'show'])->name('project');
+Route::get('/proyek-baru/{project:slug}', [\App\Http\Controllers\ProyekController::class, 'show'])->name('proyek-baru');
 
 
 Route::view('/cart', 'pages.cart')->name('cart');

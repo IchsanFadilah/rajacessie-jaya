@@ -24,7 +24,6 @@ class CessieResource extends Resource
     {
         return $form
             ->schema([
-
                 Forms\Components\Section::make()->schema(
                     [
                         Forms\Components\SpatieMediaLibraryFileUpload::make('thumb')
@@ -33,7 +32,7 @@ class CessieResource extends Resource
                             ->collection('gallery')
                             ->multiple(),
                         Forms\Components\TextInput::make('name')
-                            ->label('Product Name')
+                            ->label('Nama Property')
                             ->live(onBlur: true)
                             ->afterStateUpdated(fn (Forms\Set $set, ?string $state) => $set('slug', Str::slug($state))),
                         Forms\Components\TextInput::make('slug')
@@ -42,11 +41,13 @@ class CessieResource extends Resource
                         Forms\Components\TextInput::make('code')
                             ->unique(ignoreRecord: true),
                         Forms\Components\SpatieTagsInput::make('tags')
-                            ->label('Tags')
+                            ->label('Tipe')
+                            ->placeholder('Tipe Properti')
                             ->type('collection'),
                         Forms\Components\MarkdownEditor::make('description'),
                         Forms\Components\TextInput::make('alamat'),
-                        Forms\Components\TextInput::make('region'),
+                        Forms\Components\TextInput::make('region')
+                            ->label('Wilayah'),
                         Forms\Components\TextInput::make('luas')
                     ])
             ]);

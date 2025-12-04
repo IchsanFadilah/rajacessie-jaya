@@ -41,13 +41,13 @@ class AuctionResource extends Resource
                         Forms\Components\TextInput::make('code')
                             ->unique(ignoreRecord: true),
                         Forms\Components\SpatieTagsInput::make('tags')
-                            ->label('Wilayah')
-                            ->placeholder('Masukan wilayah')
+                            ->label('Tipe')
+                            ->placeholder('Tipe Properti')
                             ->type('collection'),
                         Forms\Components\MarkdownEditor::make('description'),
                         Forms\Components\TextInput::make('alamat'),
                         Forms\Components\TextInput::make('region')
-                            ->label('Tipe'),
+                            ->label('Wilayah'),
                         Forms\Components\TextInput::make('luas')
                     ])
             ]);
