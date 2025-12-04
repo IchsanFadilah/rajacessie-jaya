@@ -77,9 +77,10 @@
     class="sticky z-50 top-0 flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-yellow-500 text-sm py-3 dark:bg-neutral-800 shadow-md shadow-zinc-600/80">
     <nav class="max-w-[85rem] w-full mx-auto px-4 flex flex-wrap basis-full items-center justify-between">
         <a class="flex gap-2" href="/">
-            <x-logo class="w-10"/>
-        <h1 class="sm:order-1 items-center flex text-xl font-semibold dark:text-white focus:outline-hidden focus:opacity-80 justify-end"
-            >Raja Cessie Jaya</h1>
+            <x-logo class="w-10" />
+            <h1
+                class="sm:order-1 items-center flex text-xl font-semibold text-white focus:outline-hidden focus:opacity-80 justify-end">
+                Raja Cessie Jaya</h1>
         </a>
         <div class="sm:order-3 flex items-center gap-x-2">
             <button type="button"
@@ -102,36 +103,37 @@
                 <span class="sr-only">Toggle</span>
             </button>
             <div class="max-w-sm space-y-3 hidden sm:block">
-                    <a href="{{route('contact')}}" class="py-2 px-2.5 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-emerald-600 text-white hover:bg-emerald-700 focus:outline-hidden focus:bg-gray-900 disabled:opacity-50 disabled:pointer-events-none dark:bg-white dark:text-neutral-800 cursor-pointer">
-                        Kontak Kami
-                    </a>
+                <a href="{{ route('contact') }}"
+                    class="py-2 px-2.5 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-emerald-600 text-white hover:bg-emerald-700 focus:outline-hidden focus:bg-gray-900 disabled:opacity-50 disabled:pointer-events-none dark:bg-white dark:text-neutral-800 cursor-pointer">
+                    Kontak Kami
+                </a>
             </div>
         </div>
         <div id="hs-navbar-alignment"
             class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:grow-0 sm:basis-auto sm:block sm:order-2"
             aria-labelledby="hs-navbar-alignment-collapse">
             <div class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:mt-0 sm:ps-5">
-                <x-nav-link href="/tentang-kami" :current="request()->is('tentang-kami')" >
+                <x-nav-link href="/tentang-kami" :current="request()->is('tentang-kami')">
                     Tentang Kami
                 </x-nav-link>
-                <x-nav-link href="/cessie" :current="request()->is('cessie')" >
+                <x-nav-link href="/cessie" :current="request()->is('cessie')">
                     Cessie
                 </x-nav-link>
-                <x-nav-link href="/jual" :current="request()->is('jual')" >
+                <x-nav-link href="/jual" :current="request()->is('jual')">
                     Jual
                 </x-nav-link>
-                <x-nav-link href="/lelang" :current="request()->is('lelang')" >
+                <x-nav-link href="/lelang" :current="request()->is('lelang')">
                     Lelang
                 </x-nav-link>
-                <x-nav-link href="/proyek-baru" :current="request()->is('proyek-baru')" >
+                <x-nav-link href="/proyek-baru" :current="request()->is('proyek-baru')">
                     Proyek Baru
                 </x-nav-link>
-{{--                <x-nav-link href="/products" :current="request()->is('products')" >--}}
-{{--                    Testimoni--}}
-{{--                </x-nav-link>--}}
-{{--                <x-nav-link href="/kontak" :current="request()->is('kontak')" wire:navigate class="block sm:hidden">--}}
-{{--                    Kontak Kami--}}
-{{--                </x-nav-link>--}}
+                {{--                <x-nav-link href="/products" :current="request()->is('products')" > --}}
+                {{--                    Testimoni --}}
+                {{--                </x-nav-link> --}}
+                {{--                <x-nav-link href="/kontak" :current="request()->is('kontak')" wire:navigate class="block sm:hidden"> --}}
+                {{--                    Kontak Kami --}}
+                {{--                </x-nav-link> --}}
             </div>
         </div>
     </nav>
