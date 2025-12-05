@@ -31,9 +31,9 @@
         <div
             class="hs-carousel-body absolute top-0 bottom-0 start-0 flex flex-nowrap transition-transform duration-700 opacity-0">
             <div class="hs-carousel-slide bg-cover bg-center object-cover">
-                <div class="flex justify-center w-full h-full bg-gray-100 dark:bg-neutral-900">
+                <div class="hs-carousel-body flex justify-center z-20 w-full h-full bg-gray-100 dark:bg-neutral-900">
                     <img src="{{ asset('images/image/bg_1.jpg') }}" alt="slide image" class="w-full" />
-                    <div class="absolute left-4 sm:left-40 bottom-4 sm:bottom-56 z-20 grid grid-cols-2 gap-2">
+                    <div class="absolute left-4 sm:left-40 bottom-4 sm:bottom-56 z-10 grid grid-cols-2 gap-2">
                         <a class="px-6 py-3 text-lg font-semibold rounded-lg bg-emerald-800 hover:bg-emerald-700 text-white transition duration-300 shadow-xl text-center"
                             href="{{ route('sale-catalog') }}">
                             DIJUAL
@@ -52,9 +52,9 @@
                 </div>
             </div>
             <div class="hs-carousel-slide bg-cover bg-center object-cover">
-                <div class="flex justify-center h-full w-full bg-gray-200 dark:bg-neutral-800">
+                <div class="hs-carousel-body flex justify-center h-full w-full bg-gray-200 dark:bg-neutral-800">
                     <img src="{{ asset('images/image/bg_2.jpg') }}" alt="slide image" class="w-full" />
-                    <div class="absolute left-4 sm:left-40 bottom-4 sm:bottom-56 z-20 grid grid-cols-2 gap-2">
+                    <div class="absolute left-4 sm:left-40 bottom-4 sm:bottom-56 z-10 grid grid-cols-2 gap-2">
                         <a class="px-6 py-3 text-lg font-semibold rounded-lg bg-emerald-800 hover:bg-emerald-700 text-white transition duration-300 shadow-xl text-center"
                             href="{{ route('sale-catalog') }}">
                             DIJUAL
