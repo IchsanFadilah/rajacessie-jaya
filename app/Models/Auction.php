@@ -13,6 +13,13 @@ class Auction extends Model implements HasMedia
 {
     use InteractsWithMedia, HasTags;
 
+    // public function registerMediaCollections(): void
+    // {
+    //     $this->addMediaCollection('thumb')
+    //         ->useDisk('s3')
+    //         ->storeConversionsOnDisk('public');
+    // }
+
     public function registerAllMediaConversions(?Media $media = null): void
     {
         $this->addMediaConversion('thumb')

@@ -15,7 +15,7 @@ class Cessie extends Model implements HasMedia
 
     public function registerAllMediaConversions(?Media $media = null): void
     {
-        $this->addMediaConversion('thumb')
+        $this->addMediaConversion('thumb', 's3')
             ->fit(Fit::Contain, 300, 300)
             ->nonQueued();
     }
