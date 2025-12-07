@@ -21,7 +21,6 @@
     <x-navigation />
     {{ $slot }}
     <x-footer />
-
 </body>
 
 </html>

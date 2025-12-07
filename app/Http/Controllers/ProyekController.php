@@ -11,7 +11,7 @@ class ProyekController extends Controller
 {
     public function show(Project $project)
     {
-        $project = ProductData::fromModel($project, true);
+        $project = ProjectData::fromModel($project, true);
 
         return view('proyek.show', compact('project'));
     }

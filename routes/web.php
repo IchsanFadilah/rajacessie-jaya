@@ -14,8 +14,8 @@ Route::get('/', \App\Livewire\Home::class)->name('home');
 Route::get('/tentang-kami', \App\Livewire\About::class)->name('about');
 Route::get('/kontak', \App\Livewire\Contact::class)->name('contact');
 
-Route::get('/products', ProductCatalog::class)->name('product-catalog');
-Route::get('/product/{product:slug}', [ProductController::class, 'show'])->name('product');
+// Route::get('/products', ProductCatalog::class)->name('product-catalog');
+// Route::get('/product/{product:slug}', [ProductController::class, 'show'])->name('product');
 
 Route::get('/cessie', CessieCatalog::class)->name('cessie-catalog');
 Route::get('/cessie/{cessie:slug}', [\App\Http\Controllers\CessieController::class, 'show'])->name('cessie');

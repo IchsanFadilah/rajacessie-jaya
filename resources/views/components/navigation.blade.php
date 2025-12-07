@@ -74,7 +74,7 @@
 <!-- ========== END HEADER ========== -->
 
 <header
-    class="sticky z-50 top-0 flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-yellow-500 text-sm py-3 dark:bg-neutral-800 shadow-md shadow-zinc-600/80">
+    class="sticky z-50 top-0 flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-yellow-500 text-sm py-3 shadow-md shadow-zinc-600/80">
     <nav class="max-w-[85rem] w-full mx-auto px-4 flex flex-wrap basis-full items-center justify-between">
         <a class="flex gap-2" href="/">
             <x-logo class="w-10" />
@@ -128,9 +128,9 @@
                 <x-nav-link href="/proyek-baru" :current="request()->is('proyek-baru')">
                     Proyek Baru
                 </x-nav-link>
-                {{--                <x-nav-link href="/products" :current="request()->is('products')" > --}}
-                {{--                    Testimoni --}}
-                {{--                </x-nav-link> --}}
+                {{-- <x-nav-link href="/products" :current="request()->is('products')" >
+                                    Testimoni
+                                </x-nav-link> --}}
                 {{--                <x-nav-link href="/kontak" :current="request()->is('kontak')" wire:navigate class="block sm:hidden"> --}}
                 {{--                    Kontak Kami --}}
                 {{--                </x-nav-link> --}}

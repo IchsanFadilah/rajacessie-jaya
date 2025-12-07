@@ -3,12 +3,17 @@
     <div class="mt-auto w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 lg:pt-20 mx-auto">
         <!-- Grid -->
         <div class="grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-3">
-            <div class="col-span-full lg:col-span-1">
+            <div class="text-sm sm:text-base col-span-full lg:col-span-1">
 
                 <a class="flex-none text-xl font-semibold text-white focus:outline-hidden focus:opacity-80" href="#"
                     aria-label="Brand"><img src="{{ asset('images/logo/cessie_logo.png') }}" alt="logo"
                         class="w-40"></a>
-
+                <p class="mt-4 text-gray-400">
+                    Alamat kantor pondok pinang :
+                    <br>PT. Raja Cessie Jaya.
+                    <br>Jl. Raharja Ciputat raya No.163A Rt.002 Rw.008 Kel. Pondok Pinang, Kec. kebayoran Lama, Jakarta
+                    Selatan.
+                </p>
             </div>
         </div>
 
