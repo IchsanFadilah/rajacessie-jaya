@@ -13,7 +13,6 @@ class CessieCollectionData extends Data
         public string $name,
         public string $region,
         public string $slug,
-        public int $cessie_count
     ) {}
 
     public static function fromModel(Tag $tag): self

@@ -12,7 +12,6 @@ class ProjectCollectionData extends Data
         public int $id,
         public string $name,
         public string $slug,
-        public int $project_count
     ) {}
 
     public static function fromModel(Tag $tag): self
@@ -21,7 +20,6 @@ class ProjectCollectionData extends Data
             $tag->id,
             (String) $tag->name,
             (String) $tag->slug,
-            $tag->projects_count
         );
     }
 }

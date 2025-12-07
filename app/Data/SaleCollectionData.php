@@ -13,7 +13,6 @@ class SaleCollectionData extends Data
         public int $id,
         public string $name,
         public string $slug,
-        public int $sale_count
     ) {}
 
     public static function fromModel(Tag $tag): self
@@ -22,7 +21,6 @@ class SaleCollectionData extends Data
             $tag->id,
             (String) $tag->name,
             (String) $tag->slug,
-            $tag->sales_count
         );
     }
 }
