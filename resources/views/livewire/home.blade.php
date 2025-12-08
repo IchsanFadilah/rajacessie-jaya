@@ -1,4 +1,3 @@
-
 <!-- Slider -->
 <div data-hs-carousel='{
     "loadingClasses": "opacity-0",
@@ -10,10 +9,13 @@
             class="hs-carousel-body absolute top-0 bottom-0 start-0 flex flex-nowrap transition-transform duration-700 opacity-0">
             <div class="hs-carousel-slide">
                 <div class="flex justify-center h-full bg-gray-100 ">
-                    <img src="{{ asset('images/image/bg_1.jpg') }}" alt="slide image" class="hidden sm:block w-full" />
-                    <img src="{{ asset('images/image/mobile_1.jpg') }}" alt="slide image" class="sm:hidden w-full object-cover" />
-                    <div class="hidden absolute left-4 sm:left-40 bottom-4 sm:bottom-56 z-10 sm:grid grid-cols-2 gap-2">
-                        <a class="px-6 py-3 text-lg font-semibold rounded-lg bg-emerald-800 hover:bg-emerald-700 text-white transition duration-300 shadow-xl text-center"
+                    <img src="{{ asset('images/image/bg_1.jpg') }}" alt="slide image"
+                        class="hidden sm:block w-full object-cover" />
+                    <img src="{{ asset('images/image/mobile_1.jpg') }}" alt="slide image"
+                        class="block sm:hidden w-full object-cover" />
+                    <div
+                        class="hidden sm:grid absolute left-2 sm:left-30 bottom-2 md:bottom-10 lg:bottom-50 z-10 grid-cols-2 gap-2">
+                        <a class="px-4 py-1.5 lg:px-6 lg:py-3 text-sm lg:text-lg lg:font-semibold rounded-lg bg-emerald-800 hover:bg-emerald-700 text-white transition duration-300 shadow-xl text-center"
                             href="{{ route('sale-catalog') }}">
                             DIJUAL
                         </a>
@@ -33,7 +35,8 @@
             <div class="hs-carousel-slide">
                 <div class="flex justify-center h-full bg-gray-200 ">
                     <img src="{{ asset('images/image/bg_2.jpg') }}" alt="slide image" class="hidden sm:block w-full" />
-                    <img src="{{ asset('images/image/mobile_2.jpg') }}" alt="slide image" class="sm:hidden w-full object-cover" />
+                    <img src="{{ asset('images/image/mobile_2.jpg') }}" alt="slide image"
+                        class="sm:hidden w-full object-cover" />
                 </div>
             </div>
         </div>
