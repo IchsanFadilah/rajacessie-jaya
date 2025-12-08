@@ -7,7 +7,7 @@
 
                 <a class="flex-none text-xl font-semibold text-white focus:outline-hidden focus:opacity-80" href="#"
                     aria-label="Brand"><img src="{{ asset('images/logo/cessie_logo.png') }}" alt="logo"
-                        class="w-40"></a>
+                        class="w-20 lg:w-40"></a>
                 <p class="mt-4 text-gray-400">
                     Alamat kantor pondok pinang :
                     <br>PT. Raja Cessie Jaya.
