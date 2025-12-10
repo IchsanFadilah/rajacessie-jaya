@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Data\ProductData;
 use App\Data\ProjectData;
 use App\Models\Project;
 use Illuminate\Http\Request;

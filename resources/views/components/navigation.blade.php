@@ -1,8 +1,8 @@
 <header
-    class="sticky z-50 top-0 flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-yellow-500 text-sm py-3 shadow-md shadow-zinc-600/80">
+    class="sticky z-50 top-0 flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-yellow-500 text-sm lg:text-lg py-1 lg:py-3 shadow-md shadow-zinc-600/80">
     <nav class="max-w-[85rem] w-full mx-auto px-4 flex flex-wrap basis-full items-center justify-between">
         <a class="flex gap-2" href="/">
-            <x-logo class="w-10" />
+            <x-logo class="flex w-16" />
             <h1
                 class="sm:order-1 items-center flex text-xl font-semibold text-white focus:outline-hidden focus:opacity-80 justify-end">
                 Raja Cessie Jaya</h1>
@@ -37,7 +37,7 @@
         <div id="hs-navbar-alignment"
             class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:grow-0 sm:basis-auto sm:block sm:order-2"
             aria-labelledby="hs-navbar-alignment-collapse">
-            <div class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:mt-0 sm:ps-5">
+            <div class="flex flex-col py-4 md:py-0 gap-2 md:gap-5 sm:flex-row sm:items-center sm:mt-0 sm:ps-5">
                 <x-nav-link href="/tentang-kami" :current="request()->is('tentang-kami')">
                     Tentang Kami
                 </x-nav-link>
@@ -53,12 +53,9 @@
                 <x-nav-link href="/proyek-baru" :current="request()->is('proyek-baru')">
                     Proyek Baru
                 </x-nav-link>
-                {{-- <x-nav-link href="/products" :current="request()->is('products')" >
-                                    Testimoni
-                                </x-nav-link> --}}
-                {{--                <x-nav-link href="/kontak" :current="request()->is('kontak')" wire:navigate class="block sm:hidden"> --}}
-                {{--                    Kontak Kami --}}
-                {{--                </x-nav-link> --}}
+                <x-nav-link href="/kontak" :current="request()->is('kontak')" wire:navigate class="block sm:hidden">
+                    Kontak Kami
+                </x-nav-link>
             </div>
         </div>
     </nav>

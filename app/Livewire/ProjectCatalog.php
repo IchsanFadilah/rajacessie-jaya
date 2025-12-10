@@ -51,7 +51,7 @@ class ProjectCatalog extends Component
         $this->select_collections = [];
         $this->search = '';
         $this->sortby = 'newest';
-        
+
         $this->resetErrorBag();
         $this->resetPage();
     }
@@ -71,7 +71,7 @@ class ProjectCatalog extends Component
 
         if ($this->search)
         {
-            $query->where('name', 'LIKE', "%{$this->search}%");
+            $query->where('name', 'LIKE', "%{$this->search}%")->orWhere('region', 'LIKE', "%{$this->search}%");
         }
 
         if (!empty($this->select_collections))
@@ -95,9 +95,9 @@ class ProjectCatalog extends Component
                 $query->latest();
                 break;
         }
-        
+
         $projects = ProjectData::collect(
-            $query->paginate(9)
+            $query->paginate(3)
         );
 
         $collections = ProjectCollectionData::collect($collection_result);

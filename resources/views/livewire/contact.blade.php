@@ -9,10 +9,12 @@
                     </div>
 
                     <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:gap-8">
-                        <a href="https://wa.me/+6281318551512" class="rounded-2xl bg-gray-50 p-10 hover:scale-110 duration-300">
+                        <a href="https://wa.me/+6287878181575"
+                            class="rounded-2xl bg-gray-50 p-10 hover:scale-110 duration-300">
                             <div class="flex items-center gap-x-3 ">
                                 <div class="shrink-0">
-                                    <img class="shrink-0 size-16 rounded-full" src="{{asset('images/logo/whatsapp.svg')}}" alt="Raja Cessie Jaya Logo">
+                                    <img class="shrink-0 size-16 rounded-full"
+                                        src="{{ asset('images/logo/whatsapp.svg') }}" alt="Raja Cessie Jaya Logo">
                                 </div>
                                 <div class="grow">
                                     <h1 class="text-lg font-medium text-gray-800 dark:text-neutral-200">
@@ -24,10 +26,12 @@
                                 WhatsApp : +62 878-7818-1575
                             </p>
                         </a>
-                        <a href="https://wa.me/+6281318551512" class="rounded-2xl bg-gray-50 p-10 hover:scale-110 duration-300">
+                        <a href="https://wa.me/+6282339941903"
+                            class="rounded-2xl bg-gray-50 p-10 hover:scale-110 duration-300">
                             <div class="flex items-center gap-x-3 ">
                                 <div class="shrink-0">
-                                    <img class="shrink-0 size-16 rounded-full" src="{{asset('images/logo/whatsapp.svg')}}" alt="Raja Cessie Jaya Logo">
+                                    <img class="shrink-0 size-16 rounded-full"
+                                        src="{{ asset('images/logo/whatsapp.svg') }}" alt="Raja Cessie Jaya Logo">
                                 </div>
 
                                 <div class="grow">

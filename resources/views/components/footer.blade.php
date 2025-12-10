@@ -7,7 +7,7 @@
 
                 <a class="flex-none text-xl font-semibold text-white focus:outline-hidden focus:opacity-80" href="#"
                     aria-label="Brand"><img src="{{ asset('images/logo/cessie_logo.png') }}" alt="logo"
-                        class="w-20 lg:w-40"></a>
+                        class="w-18 lg:w-24"></a>
                 <p class="mt-4 text-gray-400">
                     Alamat kantor pondok pinang :
                     <br>PT. Raja Cessie Jaya.
@@ -15,8 +15,11 @@
                     Selatan.
                 </p>
             </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.8811333882268!2d106.7723885738531!3d-6.279354428859682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1b541ddde47%3A0x89b6229a61667641!2sGedung%20Buana%2C%20Jl.%20Ciputat%20Raya%20Jl.%20Raharja%20No.163%20A%2C%20RT.2%2FRW.8%2C%20Pd.%20Pinang%2C%20Kec.%20Kebayoran%20Lama%2C%20Kota%20Jakarta%20Selatan%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2012310!5e0!3m2!1sen!2sid!4v1765386110592!5m2!1sen!2sid"
+                width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-
         <!-- End Grid -->
         <div class="flex justify-center mt-10">
             <h4 class="font-semibold text-gray-100">Lebih dekat dengan kami.</h4>

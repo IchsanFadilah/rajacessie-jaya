@@ -24,9 +24,16 @@
                     <div>
                         <h1 class="text-3xl font-semibold">{{ $auction->name }}</h1>
                         <h2 class="text-sm text-gray-800">{{ $auction->short_desc }}</h2>
-                        <h3 class="text-xs text-gray-500">{{ $auction->region }}</h3>
+                        <h3 class="text-xs text-gray-800">{{ $auction->region }}</h3>
                     </div>
-                    <span class="mt-2 text-2xl font-bold">{{ $auction->luas }} M<sup>2</sup></span>
+                    <div class="flex justify-between me-3 p-2">
+                        <span class="mt-2 text-2xl font-bold">{{ $auction->luas }} M<sup>2</sup></span>
+                        <a class="text-sm text-zinc-900 bg-yellow-400 hover:bg-yellow-300 duration-300 py-2 px-3 rounded-2xl flex items-center"
+                            href="/kontak">
+                            <img src="{{ asset('images/logo/whatsapp.svg') }}" alt="logo" class="w-6 me-2">
+                            Hubungi Kami
+                        </a>
+                    </div>
                 </div>
                 <div class="mt-10">
                     <h3 class="font-semibold">Description</h3>
