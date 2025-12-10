@@ -28,9 +28,9 @@
                     <!-- Item -->
                     <div class="hs-carousel-slide">
                         <div
-                            class="h-120 md:h-[calc(100vh-106px)] py-4 flex flex-col bg-[url('https://images.unsplash.com/photo-1765169769074-7dc87f954de5?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] md:bg-[url('https://images.unsplash.com/photo-1765384145082-67af52b6c36d?q=80&w=2664&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]
+                            class="h-120 md:h-[calc(100vh-106px)] py-4 flex flex-col bg-[url('https://images.unsplash.com/photo-1765384144971-7c13f3eded96?q=80&w=2000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] md:bg-[url('https://images.unsplash.com/photo-1765384145082-67af52b6c36d?q=80&w=2664&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]
                         bg-cover bg-center bg-no-repeat">
-                            <div class="mt-auto w-2/3 md:max-w-lg ps-34 pb-5 md:pb-2 lg:ps-40 lg:pb-40">
+                            <div class="mt-auto w-2/3 md:max-w-lg ps-35 pb-5 md:pb-2 lg:ps-40 lg:pb-40">
                                 <div class="mt-5 mx-auto">
                                     <a class="py-2 px-3 inline-flex items-center gap-x-2 text-xs sm:text-sm font-medium rounded-xl bg-emerald-600 border border-transparent text-white hover:bg-emerald-500 focus:outline-hidden focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
                                         href="#">
